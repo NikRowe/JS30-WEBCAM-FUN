@@ -1,0 +1,26 @@
+{
+  "name": "js30-19-webcam-fun",
+  "version": "1.0.0",
+  "description": "Exercise 19 in WesBos' JavaScript30 tutorials.",
+  "main": "scripts.js",
+  "scripts": {
+    "startBrowserSync": "browser-sync start --server --files \"*.css, *.html, *.js\"",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik Rowe",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5 <2.23.2",
+    "lite-server": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikRowe/JS30-WEBCAM-FUN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikRowe/JS30-WEBCAM-FUN/issues"
+  },
+  "homepage": "https://github.com/NikRowe/JS30-WEBCAM-FUN#readme"
+}
