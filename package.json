@@ -4,7 +4,7 @@
   "description": "Exercise 19 in WesBos' JavaScript30 tutorials.",
   "main": "scripts.js",
   "scripts": {
-    "startBrowserSync": "browser-sync start --server --files \"*.css, *.html, *.js\"",
+    "go": "browser-sync start --server --files \"*.css, *.html, *.js\"",
     "start": "npm run lite",
     "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
